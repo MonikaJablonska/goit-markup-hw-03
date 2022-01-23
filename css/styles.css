@@ -53,14 +53,18 @@ img {
 .navigation,
 .list-navigation,
 .list-contact-header,
-.container-flex-header {
+.container-header {
   display: flex;
+   align-items: center;
 }
 
-.container-flex-header {
+
+.container-header {
+  padding: 24px 0;
   justify-content: space-between;
 }
 .logo {
+  margin-right: 93px;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: var(--logo-text-color);
@@ -159,11 +163,13 @@ img {
 }
 
 .link-navigation {
+  margin-right: 46px;
   font-weight: 500;
   color: var(--secondary-text-color);
 }
 
 .link-contact {
+  margin-left: 50px;
   font-weight: 500;
   color: var(--main-text-color);
 }
