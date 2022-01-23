@@ -130,7 +130,8 @@ img {
 
 /* what we do */
 
-.what-we-do-header-2 {
+.what-we-do-header-2,
+.our-team-header-2 {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.167;
@@ -143,38 +144,52 @@ img {
   justify-content: space-between;
 }
 
+/* our team */
+
 .our-team {
-  padding: 75px;
   background-color: var(--light-background-color);
 }
 
+.container-our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-our-team {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team-card {
+  padding-bottom: 30px;
   width: 270px;
-  height: 368px;
   font-size: 16px;
   text-align: center;
   background-color: var(--light-color);
   border-radius: 0 0 4px 4px;
 }
 
-.team-position {
-  line-height: 1.188;
-  letter-spacing: 0.03em;
-}
-.footer {
-  padding: 60px 215px;
-  color: var(--light-color);
-  background-color: var(--dark-background-color);
-}
-
-.header-3 {
+.team-card-heading {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.188;
   letter-spacing: 0.03em;
 }
 
-.header-3,
+.team-card-content {
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  padding: 60px 215px;
+  color: var(--light-color);
+  background-color: var(--dark-background-color);
+}
+
+.team-card-heading,
 .header-3-project {
   color: var(--secondary-text-color);
 }
