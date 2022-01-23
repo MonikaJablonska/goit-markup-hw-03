@@ -86,6 +86,8 @@ img {
   color: var(--light-color);
 }
 
+/* hero */
+
 .hero {
   box-sizing: border-box;
   height: 600px;
@@ -108,9 +110,10 @@ img {
   display: flex;
 }
 
-.container-our-strength {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.hero,
+.container-our-strength,
+.container-what-we-do {
+  margin-bottom: 94px;
 }
 
 .list-item-our-strengths-margin:not(:last-of-type) {
@@ -123,6 +126,21 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/* what we do */
+
+.what-we-do-header-2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+.list-what-we-do {
+  display: flex;
+  justify-content: space-between;
 }
 
 .our-team {
@@ -147,14 +165,6 @@ img {
   padding: 60px 215px;
   color: var(--light-color);
   background-color: var(--dark-background-color);
-}
-
-.header-2 {
-  font-size: 36px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  text-align: center;
 }
 
 .header-3 {
