@@ -82,10 +82,6 @@ img {
   color: var(--accent);
 }
 
-.logo-footer {
-  color: var(--light-color);
-}
-
 /* hero */
 
 .hero {
@@ -183,12 +179,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.footer {
-  padding: 60px 215px;
-  color: var(--light-color);
-  background-color: var(--dark-background-color);
-}
-
 .team-card-heading,
 .header-3-project {
   color: var(--secondary-text-color);
@@ -216,18 +206,6 @@ img {
   margin-left: 50px;
   font-weight: 500;
   color: var(--main-text-color);
-}
-
-.link-footer {
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--light-color);
-  opacity: 0.6;
-}
-
-.link-footer-address {
-  opacity: 1;
 }
 
 .link:hover,
@@ -271,4 +249,35 @@ img {
 .strength-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: var(--light-color);
+  background-color: var(--dark-background-color);
+}
+
+.footer-list-item:not(:last-of-type) {
+  margin-bottom: 9px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--light-color);
+}
+
+.footer-link {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--light-color);
+  opacity: 0.6;
+}
+
+.footer-link-address {
+  opacity: 1;
 }
