@@ -8,6 +8,8 @@
   --light-color: #fff;
   --logo-text-color: #000;
   --accent: #2196f3;
+  --border-bottom-color: #ececec
+
 }
 
 body {
@@ -46,7 +48,7 @@ img {
 .container {
   width: 1200px;
   padding: 0 15px;
-  margin: auto; 
+  margin: auto;
   /* margin auto - center container horizontally */
 }
 
@@ -55,9 +57,12 @@ img {
 .list-contact-header,
 .container-header {
   display: flex;
-   align-items: center;
+  align-items: center;
 }
 
+.header {
+  border-bottom: 1px solid var(--border-bottom-color);
+}
 
 .container-header {
   padding: 24px 0;
