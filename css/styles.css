@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 0;
+  /* padding: 0; - probably to remove*/
 }
 ul {
   margin: 0;
@@ -35,10 +35,31 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: auto; 
+  /* margin auto - center container horizontally */
+}
+
+.navigation,
+.list-navigation,
+.list-contact-header,
+.container-flex-header {
+  display: flex;
+}
+
+.container-flex-header {
+  justify-content: space-between;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
