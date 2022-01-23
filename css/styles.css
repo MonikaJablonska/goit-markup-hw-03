@@ -8,8 +8,7 @@
   --light-color: #fff;
   --logo-text-color: #000;
   --accent: #2196f3;
-  --border-bottom-color: #ececec
-
+  --border-bottom-color: #ececec;
 }
 
 body {
@@ -104,6 +103,28 @@ img {
   text-transform: uppercase;
 }
 
+/* Our strengths */
+.list-our-strengths {
+  display: flex;
+}
+
+.container-our-strength {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-item-our-strengths-margin:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.our-strength-header-4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
 .our-team {
   padding: 75px;
   background-color: var(--light-background-color);
@@ -153,13 +174,6 @@ img {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-}
-
-.header-4 {
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
 
 .link {
