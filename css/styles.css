@@ -87,14 +87,14 @@ img {
 /* hero */
 
 .hero {
-  box-sizing: border-box;
-  height: 600px;
-  padding-top: 200px;
+  padding: 200px 0;
   text-align: center;
   background-color: var(--dark-background-color);
 }
 
 .hero-header {
+  display: flex;
+  flex-direction: column;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -232,6 +232,7 @@ img {
 }
 
 .btn.hero-btn {
+  margin-top: 30px;
   padding: 10px 40px;
   font-weight: 700;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
